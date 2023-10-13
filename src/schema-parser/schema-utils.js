@@ -52,7 +52,7 @@ class SchemaUtils {
   };
 
   isPropertyRequired = (name, propertySchema, rootSchema) => {
-    if (propertySchema['x-omitempty'] === false) {
+    if (propertySchema['x-omitempty'] === false || propertySchema["x-nullable"] === false) {
       return true;
     }
 
