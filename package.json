@@ -1,6 +1,6 @@
 {
   "name": "@domore-hr/swagger-typescript-api",
-  "version": "13.0.4",
+  "version": "13.0.5",
   "description": "Generate typescript/javascript api from swagger schema",
   "scripts": {
     "update-deps-to-latest": "npx --yes npm-check-updates && npm i",
@@ -102,7 +102,7 @@
     "prettier": "3.0.0",
     "swagger-schema-official": "2.0.0-bab6bed",
     "swagger2openapi": "7.0.8",
-    "typescript": "5.1.6"
+    "typescript": "5.4.5"
   },
   "bin": {
     "domore-swagger-typescript-api": "index.js",
